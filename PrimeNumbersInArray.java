@@ -10,11 +10,8 @@ public class PrimeNumbersInArray {
                 primeCount++;
             }
         }
-        
         System.out.println("\nTotal prime numbers: " + primeCount);
     }
-    
-    // Function to check if a number is prime
     public static boolean isPrime(int number) {
         if (number <= 1) {
             return false;
