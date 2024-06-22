@@ -1,6 +1,5 @@
 public class PrimitiveDataTypesDemo {
     public static void main(String[] args) {
-        // Integer data types
         byte byteValue = 10;
         short shortValue = 100;
         int intValue = 1000;
