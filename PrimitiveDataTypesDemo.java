@@ -5,18 +5,10 @@ public class PrimitiveDataTypesDemo {
         short shortValue = 100;
         int intValue = 1000;
         long longValue = 10000L;
-
-        // Floating-point data types
         float floatValue = 10.5f;
         double doubleValue = 20.5;
-
-        // Character data type
         char charValue = 'A';
-
-        // Boolean data type
         boolean booleanValue = true;
-
-        // Displaying the values
         System.out.println("Byte Value: " + byteValue);
         System.out.println("Short Value: " + shortValue);
         System.out.println("Int Value: " + intValue);
