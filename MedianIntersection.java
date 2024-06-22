@@ -21,6 +21,6 @@ public class MedianIntersection {
                 }
             }
         }
-        return -1; // No intersection found
+        return -1;
     }
 }
