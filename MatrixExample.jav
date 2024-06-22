@@ -7,7 +7,6 @@ public class MatrixExample {
         int[][] matrix = new int[rows][cols];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                // Example: Fill matrix with sequential numbers
                 matrix[i][j] = i * cols + j + 1;
             }
         }
