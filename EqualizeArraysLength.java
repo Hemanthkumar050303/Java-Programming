@@ -8,13 +8,8 @@ public class EqualizeArraysLength {
         System.out.println("Original arrays:");
         System.out.println("Array1: " + Arrays.toString(array1));
         System.out.println("Array2: " + Arrays.toString(array2));
-        
-        // Check if arrays have equal lengths
         if (array1.length != array2.length) {
-            // Determine the smallest length
             int minLength = Math.min(array1.length, array2.length);
-            
-            // Resize arrays to equal length using Arrays.copyOf()
             array1 = Arrays.copyOf(array1, minLength);
             array2 = Arrays.copyOf(array2, minLength);
             
